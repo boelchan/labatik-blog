@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /home/simral/public_html/lived/system/jasper_report_2018
+
+java -cp ".:/home/simral/public_html/lived/system/jasper_report_2018/JasperSimpleServer.jar" jaspersimpleserver.Main 9988 &
